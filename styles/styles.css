@@ -42,3 +42,8 @@ input {
     height: 100%;
 }
 
+li {
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+}
