@@ -1,7 +1,7 @@
 #mainview{
     margin: 0 auto;
-    width: 80%;
     padding: 20px;
+    width: 80%;
 }
 
 .logo > img{
@@ -12,9 +12,9 @@
 }
 
 .search-box {
-    display:flex;
+    display: flex;
     border: solid;
-    border-color:#dfe1e5;
+    border-color: #dfe1e5;
     border-radius: 100px;
     border-width: 1px;
     height: 45px;
@@ -24,26 +24,69 @@
 }
 
 .search-box-icon {
-    position:relative;
     border-style: none;
-    padding: 12px 10px;
     height: 20px;
+    overflow: hidden;
+    padding: 12px 10px;
+    position: relative;
     width: 20px;
-    overflow:hidden;
 }
 
 input {
+    border-style: hidden;
     display: inline-block;
     position: relative;
-    border-style: hidden;
+    height: 100%;
+    position: relative;
     font-family: arial;
     font-size: 16px;
     width: 90%;
-    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -10px;
+}
+
+
+ul {
+    padding-left: 0;
+    padding-right: 10px;
+    list-style-type: none;
 }
 
 li {
-    display: inline;
+    position: relative;
+    float: left;
     font-family: arial;
     font-size: 13px;
+}
+
+li > a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+    padding: 8px;
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+.google-apps-icon {
+    position: relative;
+    bottom: 2px;
+    height: 22px;
+    width: 22px;
+}
+
+.sign-in a {
+    background-color: #4285f4;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 55px;
 }
