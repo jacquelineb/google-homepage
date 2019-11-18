@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 20px;
     width: 80%;
+    position: relative;
+    top: 100px;
 }
 
 .logo > img{
@@ -30,6 +32,18 @@
     padding: 12px 10px;
     position: relative;
     width: 20px;
+}
+
+.search-btns-container {
+    margin: 30px;
+    text-align: center;
+}
+
+button {
+    font-family: arial;
+    font-size: 13px;
+    padding: 7px;
+    margin: 4px;
 }
 
 input {
